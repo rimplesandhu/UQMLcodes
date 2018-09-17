@@ -1,4 +1,0 @@
-Observations:
-
-- lower the beta0 or higher the alpha0 or higher the V0 is , lower is the variance of prior pdf of W. The mean/mode of prior is governed by m0. 
-- mode of the prior for rho is governed by ratio alpha/beta. The prior variance of rho is governed by alpha/beta^2
