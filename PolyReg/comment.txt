@@ -1,1 +1,0 @@
-1. put a0 = RHOtrue*C and b0= C where C is large number to see the same results for 1_BLR and 2_BLR. 
