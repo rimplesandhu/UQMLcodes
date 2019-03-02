@@ -1,0 +1,21 @@
+Parameters of interest:
+1. Number of data points, M
+2. Hyperprior for alpha, parameter r_i and s_i (but it only affects objective function vs log-evidence)
+3. polynomial degree Nphi, or sparsity level
+4. starting alpha value
+
+Quantity of interest:
+1. Convergence properties
+2. Sparsity levels identified
+
+Nominal values: M = 50, r_i=s_i=1e-05, Nphi=5, logalpha=-5
+Generating model: y=1+x^2
+
+Test case 2: M = 10, 25, 50, 100, 500
+Test case 1: Nphi = 2, 5, 10, 20
+Test case 3: Logalpha = -5 (all present), -2  
+
+10: changing poly degree Nphi while M= 50, r,s=1e-05,logalpha0=-10
+11: changing poly degree Nphi while M= 25, r,s=1e-05,logalpha0=-10
+--12: changing poly degree Nphi while M= 50, r,s=1e-05,logalpha0=+10
+

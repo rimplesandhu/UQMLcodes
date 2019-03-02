@@ -1,0 +1,8 @@
+-----
+For bimodal evidence 
+mu1 = [0,1]
+mu2 = [1,0]
+rho = -0.75
+var = 0.02
+-----
+fac=0.5 to show global optima vs local optima
